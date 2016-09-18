@@ -2,22 +2,22 @@
 
 development:
   apps4: rails-bootstrap
-  announcements: mailinglist
+  announcements: none
   dev_webserver: puma
   prod_webserver: puma
   database: mysql
   templates: haml
   tests: none
   continuous_testing: 
-  frontend: bootstrap3
+  frontend: bootstrap4
   email: none
   authentication: false
   devise_modules: false
   omniauth_provider: 
   authorization: false
-  form_builder: simple_form
+  form_builder: 
   pages: about
-  layouts: blog_home
+  layouts: 
   locale: none
   analytics: 
   deployment: 
